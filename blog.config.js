@@ -24,8 +24,8 @@ const BLOG = {
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Richallee', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '👨‍💻‍政治学博士，飞花街交易员，喜欢做暴富的白日梦', // 作者简介
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Winter', // 您的昵称 例如 tangly1024
+  BIO: process.env.NEXT_PUBLIC_BIO || '🧑‍💻PhD，飞花街Trader', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'notion-next-peach-nu.vercel.app', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '美股, 投资，正经新闻', // 网站关键词 英文逗号隔开
 
